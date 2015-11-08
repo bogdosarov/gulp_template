@@ -19,18 +19,6 @@ gulp.task('css', function () {
         .pipe(reload({stream: true}));
 });
 
-gulp.task('browser-sync', function () {
-    var files = [
-        'app/styles/**/*.less',
-    ];
-
-    browserSync.init(files, {
-        server: {
-            baseDir: './app'
-        }
-    });
-});
-
 gulp.task('serve', ['css'], function() {
 
     browserSync({

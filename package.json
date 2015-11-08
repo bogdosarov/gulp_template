@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "simple-template",
   "version": "0.0.1",
   "devDependencies": {
     "browser-sync": "^2.9.12",
